@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,32 @@
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <img id="imagen"></img>
-<!-- multiple para escoger varios archivos -->
-        <input type="file" id="file" accept="image/*" capture>
+    <div class="container">
+        <h1>Click para plasmar la cara </h1>
+        <h1>mas hermosa del mundo</h1>
+        <img id="imagen"></img>
+        <form action="" method="POST">
+
+
+            <div id="foto">
+                <label id="img_foto"></label>
+                <!-- multiple para escoger varios archivos -->
+                <input type="file" id="file" accept="image/*" capture>
+
+
+            </div>
+            <input class="ocultar" type="text" id="" name="nombre" placeholder="Nombre">
+            <input class="ocultar" type="email" id="" name="email" placeholder="ejemplo@tuemail.com">
+            <inputc lass="ocultar" type="submit" value="Enviar">
+        </form>
+    </div>
+
+
     </div>
 </body>
+
 </html>
